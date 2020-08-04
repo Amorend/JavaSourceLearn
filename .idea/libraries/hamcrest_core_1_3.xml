@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="hamcrest-core-1.3">
+    <CLASSES>
+      <root url="jar://A:/jdk1.8-source-analysis-master/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://A:/jdk1.8-source-analysis-master/lib/junit-4.12.jar!/" />
+      <root url="jar://A:/jdk1.8-source-analysis-master/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://A:/jdk1.8-source-analysis-master/lib/slf4j-api-1.7.28.jar!/" />
+      <root url="jar://A:/jdk1.8-source-analysis-master/lib/slf4j-log4j12-1.7.28.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://A:/jdk1.8-source-analysis-master/src" />
+    </SOURCES>
+  </library>
+</component>
