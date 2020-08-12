@@ -3,6 +3,42 @@ package com.company.test.static_test;
 public class Test01 {
 
 }
+class X{
+    Y y=new Y();
+    public X(){
+        System.out.print("X");
+    }
+}
+class Y{
+    public Y(){
+        System.out.print("Y");
+    }
+}
+class Z extends X{
+    Q q = new Q();
+    static Q qq = new Q();
+    Y y=new Y();
+    {
+        System.out.println("{}");
+    }
+    static {
+        System.out.println("static");
+    }
+    public Z(){
+        System.out.print("Z");
+    }
+    public static void main(String[] args) {
+        new Z();
+    }
+}
+class Q{
+    static int a;
+    Q(){
+        System.out.println("q");
+        a++;
+        System.out.println(a);
+    }
+}
 class B
 {
     public static B t1 = new B();
