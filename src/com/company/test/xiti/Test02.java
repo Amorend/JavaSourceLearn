@@ -6,6 +6,7 @@ package com.company.test.xiti;
 public class Test02 {
     static String ss = "";
     static int jinzhi;
+    static String hex = "0123456789abcdef";
     public static void main(String[] args) {
         int a = 234534656;
         qw(a,16);
@@ -19,9 +20,8 @@ public class Test02 {
 
     static void qw(int a,int b){
         jinzhi = b;
-        qwe(a);
+        qwe2(a);
     }
-
     static void qwe(int a){
         if (a>jinzhi-1){
             qwe((a-(a%jinzhi))/jinzhi);
@@ -77,5 +77,11 @@ public class Test02 {
                 break;
         }
 
+    }
+    static void qwe2(int a){
+        if (a>jinzhi-1){
+            qwe((a-(a%jinzhi))/jinzhi);
+        }
+        ss+=hex.charAt(a%jinzhi);
     }
 }
