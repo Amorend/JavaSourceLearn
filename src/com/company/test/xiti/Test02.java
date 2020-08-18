@@ -8,11 +8,11 @@ public class Test02 {
     static int jinzhi;
     public static void main(String[] args) {
         int a = 234534656;
-        qw(a,2);
-        //System.out.println(ss);
-        String reverse = new StringBuffer(ss).reverse().toString();
-        System.out.println(reverse);
-        //System.out.println(Integer.toHexString(a)+"真16");
+        qw(a,16);
+        System.out.println(ss);
+        //String reverse = new StringBuffer(ss).reverse().toString();  //反转字符串
+        //System.out.println(reverse);
+        System.out.println(Integer.toHexString(a)+"真16");
         //System.out.println(Integer.toOctalString(a)+"真8");
         //System.out.println(Integer.toBinaryString(a)+"真2");
     }
@@ -23,6 +23,9 @@ public class Test02 {
     }
 
     static void qwe(int a){
+        if (a>jinzhi-1){
+            qwe((a-(a%jinzhi))/jinzhi);
+        }
         switch (a%jinzhi){
             case 0:
                 ss+="0";
@@ -73,8 +76,6 @@ public class Test02 {
                 ss+="f";
                 break;
         }
-        if (a>jinzhi-1){
-            qwe((a-(a%jinzhi))/jinzhi);
-        }
+
     }
 }
