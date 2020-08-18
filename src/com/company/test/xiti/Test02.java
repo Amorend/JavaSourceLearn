@@ -8,12 +8,13 @@ public class Test02 {
     static int jinzhi;
     public static void main(String[] args) {
         int a = 234534656;
-        qw(a,8);
+        qw(a,2);
         //System.out.println(ss);
         String reverse = new StringBuffer(ss).reverse().toString();
         System.out.println(reverse);
         //System.out.println(Integer.toHexString(a)+"真16");
-        System.out.println(Integer.toOctalString(a)+"真8");
+        //System.out.println(Integer.toOctalString(a)+"真8");
+        //System.out.println(Integer.toBinaryString(a)+"真2");
     }
 
     static void qw(int a,int b){
