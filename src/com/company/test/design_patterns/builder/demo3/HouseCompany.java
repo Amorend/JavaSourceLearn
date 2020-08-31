@@ -1,7 +1,8 @@
 package com.company.test.design_patterns.builder.demo3;
 
-import com.wdzl.builder.demo1.House;
-import com.wdzl.builder.demo2.HouseBuilder;
+import com.company.test.design_patterns.builder.demo1.House;
+import com.company.test.design_patterns.builder.demo2.HouseBuilder;
+
 
 public class HouseCompany {
     private HouseBuilder houseBuilder;

@@ -1,6 +1,6 @@
 package com.company.test.design_patterns.simple.demo2;
 
-import com.wdzl.simple.demo1.ConfigParse;
+
 
 public class Test {
     public static void main(String[] args) {

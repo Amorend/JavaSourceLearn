@@ -1,4 +1,4 @@
-package com.company.test.bishi;
+package com.company.test.bishi.t4399;
 
 import java.util.*;
 

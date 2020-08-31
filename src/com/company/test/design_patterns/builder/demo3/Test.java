@@ -1,6 +1,6 @@
 package com.company.test.design_patterns.builder.demo3;
 
-import com.wdzl.builder.demo1.House;
+import com.company.test.design_patterns.builder.demo1.House;
 
 /**
  * 建造者模式

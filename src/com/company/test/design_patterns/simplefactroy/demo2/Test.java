@@ -1,7 +1,6 @@
 package com.company.test.design_patterns.simplefactroy.demo2;
 
-import com.wdzl.simplefactroy.demo1.AppleDrink;
-import com.wdzl.simplefactroy.demo1.Drink;
+import com.company.test.design_patterns.simplefactroy.demo1.Drink;
 
 public class Test {
     public static void main(String[] args) {
