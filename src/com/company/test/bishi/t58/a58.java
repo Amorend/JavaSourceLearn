@@ -2,6 +2,12 @@ package com.company.test.bishi.t58;
 
 public class a58 {
     public static void main(String[] args) {
+
+        System.out.println(Integer.toBinaryString(0));// 转二进制
+        System.out.println(Integer.toOctalString(527));// 转八进制
+        System.out.println(Integer.toHexString(0));// 转十六进制
+    }
+    public static void main3(String[] args) {
         System.out.println(main2());
     }
     public static int main2() {
