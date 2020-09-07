@@ -25,7 +25,7 @@ public class a {
             }
         }
         if (level == 2 ){
-        return (int)Math.pow(3,level-1);
+            return (int)Math.pow(3,level-1);
         }
         return a;
     }
