@@ -18,6 +18,6 @@ public class B {
     }
 
     public static void main(String[] args) {
-        System.out.println(g("123", "1234"));
+        System.out.println(g("1A2C3D4B56", "B1D23CA45B6A"));
     }
 }
