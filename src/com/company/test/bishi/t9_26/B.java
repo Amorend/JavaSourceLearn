@@ -1,5 +1,7 @@
 package com.company.test.bishi.t9_26;
 
+import java.util.Scanner;
+
 public class B {
     static int g(String s1,String s2){
         int[][] dp = new int[s1.length()+1][s2.length()+1];
@@ -18,6 +20,9 @@ public class B {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        s.split(" ");
         System.out.println(g("1A2C3D4B56", "B1D23CA45B6A"));
     }
 }
